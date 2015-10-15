@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Dosis-Medium';
+  src:  url('Dosis-Medium/Dosis-Medium.eot?#iefix') format('embedded-opentype'),  
+        url('Dosis-Medium/Dosis-Medium.woff') format('woff'), 
+        url('Dosis-Medium/Dosis-Medium.ttf')  format('truetype'), 
+        url('Dosis-Medium/Dosis-Medium.svg#Dosis-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dosis-Regular';
+  src:  url('Dosis-Regular/Dosis-Regular.eot?#iefix') format('embedded-opentype'),  
+        url('Dosis-Regular/Dosis-Regular.otf')  format('opentype'),
+        url('Dosis-Regular/Dosis-Regular.woff') format('woff'), 
+        url('Dosis-Regular/Dosis-Regular.ttf')  format('truetype'), 
+        url('Dosis-Regular/Dosis-Regular.svg#Dosis-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dosis-SemiBold';
+  src:  url('Dosis-SemiBold/Dosis-SemiBold.eot?#iefix') format('embedded-opentype'),  
+        url('Dosis-SemiBold/Dosis-SemiBold.otf')  format('opentype'),
+        url('Dosis-SemiBold/Dosis-SemiBold.woff') format('woff'), 
+        url('Dosis-SemiBold/Dosis-SemiBold.ttf')  format('truetype'), 
+        url('Dosis-SemiBold/Dosis-SemiBold.svg#Dosis-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dosis-Bold';
+  src:  url('Dosis-Bold/Dosis-Bold.eot?#iefix') format('embedded-opentype'),  
+        url('Dosis-Bold/Dosis-Bold.otf')  format('opentype'),
+        url('Dosis-Bold/Dosis-Bold.woff') format('woff'), 
+        url('Dosis-Bold/Dosis-Bold.ttf')  format('truetype'), 
+        url('Dosis-Bold/Dosis-Bold.svg#Dosis-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dosis-Light';
+  src:  url('Dosis-Light/Dosis-Light.eot?#iefix') format('embedded-opentype'),  
+        url('Dosis-Light/Dosis-Light.otf')  format('opentype'),
+        url('Dosis-Light/Dosis-Light.woff') format('woff'), 
+        url('Dosis-Light/Dosis-Light.ttf')  format('truetype'), 
+        url('Dosis-Light/Dosis-Light.svg#Dosis-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeMondeCourrierStd-Book';
+  src:  url('LeMondeCourrierStd-Book/LeMondeCourrierStd-Book.otf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

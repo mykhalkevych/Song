@@ -1,0 +1,120 @@
+.table>thead>tr>td.active, .table>tbody>tr>td.active, 
+.table>tfoot>tr>td.active, .table>thead>tr>th.active, 
+.table>tbody>tr>th.active, .table>tfoot>tr>th.active, 
+.table>thead>tr.active>td, .table>tbody>tr.active>td, .table>tfoot>tr.active>td, 
+.table>thead>tr.active>th, .table>tbody>tr.active>th, .table>tfoot>tr.active>th{
+  background-color: #f1f1f1;
+}
+.table > thead > tr > th, .table > tbody > tr > th, 
+.table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, 
+.table > tfoot > tr > td{
+  padding:7px;
+}
+.btn{
+  border-radius: 0;
+  font-family: "LeMondeCourrierStd-Book"; 
+  font-size: 16px;
+}
+.color_gray{
+  color: #aeaeae;
+}
+.green{
+  color: #7eaf3e;
+}
+.blue{
+  color: #5bbbca;
+}
+.block_songs{
+  margin-top: 20px;
+}
+.rise{
+  height: 50px;
+  line-height: 50px;
+  color: #5bbbca;
+  font-size: 16px;
+  font-family: 'Dosis-SemiBold';
+  text-transform: uppercase;
+  padding-left: 42px;
+  background: url(../images/rise_ico.png) no-repeat left center;
+}
+
+.rising_list table{
+  font-family: "LeMondeCourrierStd-Book"; 
+  font-size: 15px;
+  border-top: 1px solid #ddd;
+}
+.rising_list tr{
+  cursor: pointer;
+}
+.rising_list td.song_price{
+  font-family: 'Dosis-SemiBold';
+  color: #5bbbca;
+  font-size: 17px;
+  text-align: right;
+}
+
+.wrap_graph{
+  position: relative;
+  height: 250px;
+}
+.graph{
+  height: 200px;
+}
+.graph canvas{
+  min-width: 100%;
+  max-width: 100%;
+}
+.graph_info{
+  position: absolute;
+  height: 230px;
+  width: 100%;
+  top: 0;
+}
+.wrap_graph .right_info,
+.wrap_graph .left_info{
+  position: absolute;
+  bottom: 0;
+  left: 9px;
+}
+.wrap_graph .right_info{
+  left: auto;
+  right: 20px;
+} 
+.wrap_graph .right_info p {
+  font-family: 'Dosis-Medium';
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.wrap_graph  p.price_album{
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.wrap_graph .right_info p span:not(.green){
+  color: #1a9eb5;
+ }
+.right_info .btn{ 
+  margin-top: 5px;
+  padding: 0px 19px 6px;
+}
+.album{
+   font-family: "LeMondeCourrierStd-Book"; 
+   font-size: 14px;
+}
+.album img{
+  float: left;
+  margin-right: 10px;
+}
+.album .album_name{ 
+ font-size: 24px;
+ margin-bottom: 5px;
+}
+@media(max-width:1199px){
+
+}
+@media(max-width:991px){
+  
+}
+@media(max-width:767px){
+  
+}

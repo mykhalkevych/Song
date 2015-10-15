@@ -1,0 +1,238 @@
+/*===============================================*/
+/*   Mixu  */
+/*===============================================*/
+.b {
+  font-weight: bold;
+}
+.em {
+  font-style: italic;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tdu {
+  text-decoration: underline;
+}
+.tdn {
+  text-decoration: none;
+}
+.cur {
+  cursor: pointer;
+}
+.ttu {
+  text-transform: uppercase;
+}
+.tac {
+  text-align: center;
+}
+.clr:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.ma {
+  margin: 0 auto;
+}
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+.hid {
+  overflow: hidden;
+}
+/*===============================================*/
+/*   STRUCTURE  */
+/*===============================================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+iframe {
+  border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+audio,
+canvas,
+video {
+  display: block;
+}
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  color: #363636;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Dosis-Regular';
+  background-color: #ffffff;
+}
+a {
+  color: #5bbbca;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #5bbbca;
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+input {
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table,
+th,
+td {
+  border: none;
+}
+figure {
+  position: relative;
+}
+figure img,
+figure object,
+figure embed,
+figure video {
+  max-width: 100%;
+  display: block;
+}
+/* Wrapper
+-----------------------------------------------------------------------------*/
+#wrapper { 
+  height: auto !important;
+  min-height: 100%;
+  margin: 0 auto;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#headerWrap {
+  background-color: #363636;
+  width: 100%;
+}
+header {
+  width: 1160px;
+  margin: 0 auto;
+  height: 60px;
+}
+/*Content
+-----------------------------------------------------------------------------*/
+#content {
+  padding: 0 0 130px;
+}
+#left_bar {
+  width: 250px;
+  float: left;
+}
+#right_bar {
+  width: 700px;
+  float: right;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footerWrap {
+  height: 110px;
+  margin: -110px auto 0;
+  min-width: 1160px;
+  width: 100%;
+  position: relative;
+  background-color: #363636;
+}
+footer {
+  margin: 0 auto;
+  width: 1160px;
+  height: 110px;
+}
+/*==============================
+=            Header            =
+==============================*/
+.navbar {
+  background-color: inherit;
+  border: none;
+}
+.navbar-brand {
+  font-family: 'Dosis-Medium';
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 4px;
+}
+.navbar-nav>li>a {
+  text-transform: uppercase;
+  color: #fff;
+}
+.logo--small {
+  font-family: "LeMondeCourrierStd-Book";
+  color: #999999;
+  font-size: 14px;
+  text-transform: none;
+  vertical-align: top;
+  letter-spacing: 0;
+}
+
+/*=====  End of Header  ======*/
+
+/*=================================
+=            Main Menu            =
+=================================*/
+.menu {
+  float: right;
+}
+.menu li {
+  display: inline-block;
+  margin: 20px;
+}
+.menu li a {
+  text-transform: uppercase;
+  color: #999999;
+  padding: 10px 5px;
+}
+.menu li a:hover {
+  border-bottom: 1px solid #999999;
+  color: #363636;
+}
+
+
+/*=====  End of Main Menu  ======*/
+/*==============================
+=            Footer           =
+==============================*/
+.footer-nav li {
+  display: inline-block;
+  margin: 35px 10px 15px;
+  text-transform: uppercase;
+}
