@@ -25,7 +25,7 @@
 .blue{
   color: #5bbbca;
 }
-.block_songs{
+.block_songs,.album_detail{
   margin-top: 20px;
 }
 .rise{
@@ -92,14 +92,14 @@
 }
 .wrap_graph .right_info p span:not(.green){
   color: #1a9eb5;
- }
+}
 .right_info .btn{ 
   margin-top: 5px;
   padding: 0px 19px 6px;
 }
 .album{
-   font-family: "LeMondeCourrierStd-Book"; 
-   font-size: 14px;
+ font-family: "LeMondeCourrierStd-Book"; 
+ font-size: 14px;
 }
 .album img{
   float: left;
@@ -109,12 +109,135 @@
  font-size: 24px;
  margin-bottom: 5px;
 }
+/******baners**********/
+.baners{
+  margin-top: 20px;
+}
+.left_baner{
+  height: 223px;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  float: left;
+  width: 100%
+}
+.left_baner .title{
+  text-transform: uppercase;
+  font-family: 'Dosis-Medium';
+  font-size: 40px;
+  color: #5dd1e5;
+  margin-top: 65px;
+  margin-left: 84px;
+  letter-spacing: 5px;
+}
+.left_baner .subtitle{ 
+  font-size: 16px;
+  font-family: 'LeMondeCourrierStd-Book';
+  color: #bfaeae; 
+  margin-left: 90px;
+}
+.artist_baner{
+  position: relative;
+}
+.artist_baner img{
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+.artist_info {
+  padding-top: 45px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  font-family: 'LeMondeCourrierStd-Book';
+}
+.artist_info h6 { 
+  font-family: 'Dosis-Medium';
+  color: #979d9a;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  letter-spacing: 2px;
+}
+.artist_info h3{
+  font-size: 36px;
+  margin-top: 0;
+  color: #fff; 
+}
+.artist_baner .learn_more{
+  color: #fff;
+  margin-top: 60px;
+  display: block;
+}
+.artist_baner .learn_more:hover{
+  color: #5dd1e5;
+}
+
+/****************************/
+.album_detail_img img{
+  max-width: 343px;
+  height: auto;
+}
+.details_graph{
+  position: relative;
+  height: 343px;
+}
+.album_details{
+  position: absolute;
+  top: 0;
+}
+.album_details .album .album_name{
+  font-size: 54px;
+  line-height: 34px;
+}
+.album_details .album .album_name span{
+  font-size: 36px;
+}
+.price_album {
+  font-size: 84px;
+  line-height: 84px;
+  margin-top: 15px;
+  color: #70c2cf;
+  font-family: 'Dosis-Regular';
+  position: relative;
+}
+.price_album span{
+  font-family: 'Dosis-SemiBold';
+  font-size: 18px;
+  line-height: 20px;
+  position: absolute;
+  top: 10px;
+}
+.price_album span:nth-child(2){
+  top: 34px;
+}
+.details_graph .right_info{
+  position: absolute;
+  bottom: 40px;
+  right: 12px;
+}
+.buttons_graph{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-right: 12px;0;
+}
+
+
+
+
+
+
+
+
 @media(max-width:1199px){
+  .album_detail_img img{
+    max-width: 100%; 
+  }
 
 }
 @media(max-width:991px){
-  
+
 }
 @media(max-width:767px){
-  
+
 }
